@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "http-server -a 0.0.0.0 -p 8080",
+    "start-old": "http-server -a 0.0.0.0 -p 8080",
+    "start": "firebase serve --host 0.0.0.0 --port 8080",
+    "deploy": "firebase deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
