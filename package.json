@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/modanna/modanna.github.io#readme",
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "firebase-tools": "^6.2.2"
   }
 }
