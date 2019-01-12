@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start-old": "http-server -a 0.0.0.0 -p 8080",
+    "login-old": "firebase login --no-localhost",
     "start": "firebase serve --host 0.0.0.0 --port 8080",
     "deploy": "firebase deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
